@@ -5,11 +5,92 @@
 
 body {
   font-family: 'Mulish', sans-serif;
+  color: #333333;
 }
 
 .container {
   max-width: 1110px;
   margin: auto;
+}
+
+.header {
+  background-color: #FFFFFF;
+}
+
+.header-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.header__search {
+  margin-right: auto;
+  margin-left: 108px;
+}
+
+.search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.search__input {
+  width: 350px;
+  height: 100%;
+  background-color: #F5FAFE;
+  border: none;
+  font-size: 12px;
+  line-height: 15px;
+  padding-left: 23px;
+  padding-right: 75px;
+  color: #333333;
+}
+
+.search__button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  height: 100%;
+  width: 65px;
+  background-color: #EC1F46;
+}
+
+.user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+.user__avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.user__name {
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+  margin-left: 18px;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
